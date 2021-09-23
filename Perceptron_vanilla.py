@@ -43,6 +43,7 @@ def correct(w,instance,label):
         else:
             return w
 
+#dataset implemented: https://archive.ics.uci.edu/ml/machine-learning-databases/ionosphere/ionosphere.data
 
 #34 feature columns with real values, 35th column labelling it either good(g) or bad(b)
 data=pd.read_csv('Downloads\ionosphere.data')
